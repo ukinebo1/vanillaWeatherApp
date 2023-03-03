@@ -1,9 +1,13 @@
 body{
     font-family: "Google sans", arial, sans-serif;
 }
-.wrapper{
+.app-wrapper{
     max-width: 600px;
     margin: 30px auto;
+
+}
+.wrapper{
+    
     padding: 20px;
     border: 1px solid grey;
     border-radius: 5px;
@@ -29,4 +33,14 @@ li{
     line-height: 16px;
    /* padding-left: 9px;
     padding-top: 6px; */
+}
+/*.d-flex weather-temperature{
+    display: flex;
+    justify-content: space-between;
+}*?
+    
+}
+
+.overview{
+    margin-bottom: 20px;
 }

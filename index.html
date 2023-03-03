@@ -10,16 +10,26 @@
 </head>
 <body>
     <div class="container">
+        <div class="app-wrapper">
         <div class="wrapper">
+            <div class="overview">
         <h1>New York</h1>
         <ul>
             <li>Monday 13:00</li>
             <li>Mostly sunny</li>
         </ul>
+    </div>
         <div class="row">
             <div class="col-6">
+                <div class="d-flex weather-temperature"></div>
                 <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="sunny" srcset="">
-                6°C | °F
+                <div>
+                    <strong id="temperature">6</strong
+                    ><span class="units">°C</span>
+                    <span class="units"> | °F</span>
+                  </div>
+                </div>
+            
             </div>
             <div class="col-6">
                 <ul>
@@ -33,8 +43,10 @@
             <a href="https://github.com/ukinebo1/vanillaWeatherApp" target="_blank">This open source code,</a>  by Precious B.
         </small>
     </div>
-       
+
     </div>
+</div>
+    
     <script src="src/app.js"></script>
 </body>
 </html>
